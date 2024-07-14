@@ -1,0 +1,118 @@
+Team B June Business Use Case
+
+
+Owned by Ekta Rai
+
+Jul 06, 20245 min read
+1 person viewed
+About the Company 
+Founded in 1960, News Time Express has a rich history as the largest newspaper circulator in the country. With a strong commitment to journalistic integrity and delivering quality news content, the company quickly gained recognition and built a loyal readership base. 
+
+Throughout the years, News Time Express has continually adapted to the changing landscape of the media industry. From its early beginnings as a regional newspaper publisher, the company expanded its reach to become a nationwide leader in print media.  
+
+In the digital age, News Time Express recognized the importance of embracing technology and diversifying its offerings. The company made significant investments in digital platforms, launching online editions of its newspapers and creating engaging content tailored for digital consumption. This expansion into the digital realm allowed News Time Express to reach a wider audience and stay relevant in an increasingly digital-centric world.  
+
+In addition to newspapers, the company expanded into magazine publications, catering to niche markets and specific reader interests.  
+
+Having a strong presence in both print and digital media, News Time Express is looking to transition to Salesforce to further enhance customer experiences, improve sales processes, and ensure their continued success in a rapidly evolving media landscape. The company seeks to centralize its lead management, opportunity tracking, quote generation, account management, campaign management, product management, and service processes using Salesforce. 
+
+ 
+
+The Current Scenario
+Lead Management
+The company captures leads through various sources such as MailChimp, Company Website, In-person Campaigns/events, referrals and cold calling.  
+
+Dedicated teams manually track and manage lead data for each source, resulting in time-consuming and error-prone processes. 
+
+Current Process: 
+
+Lack of Centralized Lead Data: The company's leads are scattered across various sources, making it challenging to have a unified view of lead information.  
+
+Manual Data Tracking: The dedicated team manually tracks and manages lead data for each source, resulting in time-consuming and error-prone processes. 
+
+With no consolidated CRM, it is difficult to track the status and progress of leads, leading to potential missed opportunities.  
+
+Each team calls the leads to follow up and nurture the lead. A user needs to follow-up with a lead within 5 days of assignment. 
+
+There is data duplication and inconsistencies across different sources. Customers have also complained of being contacted multiple times even if they have denied interest or already purchased a subscription. 
+
+The absence of a comprehensive system makes it challenging to analyze lead data, identify trends, and make data-driven decisions. 
+
+When the lead has expressed interest to purchase, it is assigned to the Vendors. 
+
+Campaign Management
+The marketing team is responsible for creating the Marketing Campaigns. Multiple Marketing Campaigns are created and approved at a country level. Campaigns are created for each region such that the budget of all the regional campaigns does not exceed the national campaign’s budget.  
+
+Current Process:
+
+The marketing team uses a homegrown tool for the called CampStar where they enter specific details about budget, customer and campaign.
+
+Based on the above data, the system runs an algorithm and gives the Expected ROI and the Margin. 
+
+The Margin and ROI are used to run an approval process. The approvals are sent to the approvers via email and their responses are used to approve or reject the request.  
+
+The marketing team is notified about the approval/rejection via email notifications. 
+
+ Further, the budget for the Regional campaigns is decided and allocated using emails and spreadsheets. 
+
+Post the completion of the campaigns the marketing team collates the sales data and updates it on CampStar to view reports on actual margin and ROI. 
+
+ Lack of a system to seamlessly track and associate revenue with Campaigns. The team is looking for solutions to automate the process of campaign creation, approval and revenue association.
+
+B2C Customer Data Management
+Current Process 
+
+The distributors and vendors capture the data through paper forms and News Time Express gets access to the data through Excel spreadsheets. 
+
+Since consolidated customer data is not available, News Time Express is not able to reach out to the customers directly for renewal or marketing campaigns. 
+
+The customer data received in excels has large number of duplicates.
+
+The data is manually uploaded into SAP, which is currently acts as the customer data’s source of truth.
+
+Customer service is completely dependent on the Distributors. This results in an inconsistent service experience across the country and even across the same city. 
+
+Customer 360 view is not available. 
+
+News Time Express wants to move from a paper form to a digital process.  
+
+B2C Service Process 
+While a customer is moving to another address, city or state, News Time Express allows the customers to continue the current newspaper or magazine subscriptions at their new addresses.  
+
+Current Process
+
+Customers need to reach out to their distributors or their local newspaper vendors to initiate this process. 
+
+The vendor issues a coupon for each ongoing subscription to the customer. The coupon contains the customer’s subscription id, start date and end date of the original subscription.  
+
+The coupon also contains the date when the subscription was paused at the current address.  
+
+Once the customer reaches the new address, the needs to find and contact the local vendor and share the coupon to resume the subscription at the new address. 
+
+The customer has a 15-day window to complete the process from the subscription pause date mentioned on the coupon. 
+
+Both vendors are also required to update News Time Express’s portal with the customer details in such scenarios. 
+
+NTE wants to digitise the entire process using a toll-free number and a call center.
+
+B2B Sales & Quotation 
+The company sells newspapers, magazines, and digital subscriptions to B2B clients like hospitals, hotels, airlines, etc. NTE offers bulk discounts to companies based on size of the organization, number of subscriptions etc. The discounting is based on negotiation and not automated.
+
+Current Process
+
+The Sales Rep use a homegrown quotation system (Pricer) to calculate the amount for each product in the quote the customer is interested in purchasing. 
+
+As part of the current process, the sales rep needs to enter specific information about customer, product and subscription to calculate the price.
+
+Pricer generates a price for each product. The sales rep can further provide an additional discount against the entire quote. 
+
+If an additional discount is provided, the quote goes through an approval based on a approval matrix: 
+
+The sales rep has to enter all the data every time, even while generating a quote for the same customer. 
+
+All the products exist in Pricer. The products in Pricer are updated via an integration between SAP and Pricer. 
+
+As the company pitches the products to hotel chains and educational institutions spread across the country, the sales reps in different regions often pitch to an existing customers in different regions resulting in a bad customer experience. 
+
+The company is looking to move the Quotation process including approvals to the one-stop solution while continuing to use Pricer as the pricing engine.
+
